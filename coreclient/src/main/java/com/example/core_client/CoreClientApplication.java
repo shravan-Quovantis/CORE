@@ -14,6 +14,7 @@ public class CoreClientApplication {
 	public String home(){
 		return "home";
 	}
+	
 	public static void main(String[] args) {
 		SpringApplication.run(CoreClientApplication.class, args);
 	}
